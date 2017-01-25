@@ -8,11 +8,11 @@ void ofApp::setup(){
 	//mySerial.setup(1, 9600);
 	inByte = 0;
 
-	loopMovie.load("movies/Particle_25_mepet_max_baru.mp4");
+	loopMovie.load("movies/looping_video.mp4");
 	loopMovie.setLoopState(OF_LOOP_NORMAL);
 	loopMovie.play();
 
-	triggeredMovie.load("movies/FibreFirst_Animation_final.mp4");
+	triggeredMovie.load("movies/triggered_video.mp4");
 	triggeredMovie.setLoopState(OF_LOOP_NONE);
 	triggeredMovie.stop();
 
